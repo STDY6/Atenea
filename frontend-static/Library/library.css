@@ -1,0 +1,180 @@
+html {
+    background-color: #012D54;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #CDD3D5;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 65px;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px; /* Ajusta el tamaño de la fuente según tus necesidades */
+  margin-left: 20px;
+  margin-right: 650px;
+  color: #CDD3D5;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 85px; /* Ajusta el espacio entre los elementos del menú*/
+}
+
+nav ul li a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #CDD3D5;
+}
+
+.library {
+  margin-left: 50px;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #CDD3D5;
+}
+
+/* ------ Buscador ------- */
+
+.buscador {
+  margin-left: 100px;
+  display: flex;
+  line-height: 28px;
+  align-items: center;
+  position: relative;
+  max-width: 190px;
+ }
+ 
+ .input {
+  width: 100%;
+  height: 40px;
+  line-height: 28px;
+  padding: 0 1rem;
+  padding-left: 2.5rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  outline: none;
+  background-color: #f3f3f4;
+  color: #0d0c22;
+  transition: .3s ease;
+ }
+ 
+ .input::placeholder {
+  color: #9e9ea7;
+ }
+ 
+ .input:focus, input:hover {
+  outline: none;
+  border-color: #00FFC8;
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+ }
+ 
+ .icon {
+  position: absolute;
+  left: 1rem;
+  fill: #9e9ea7;
+  width: 1rem;
+  height: 1rem;
+ } 
+
+/* -------- Documento -------- */
+
+.card {
+  margin-left: 100px;
+  margin-top: 50px;
+  width: 1170px;
+  height: 274px;
+  background: #22BDE2;
+  padding: .4em;
+  border-radius: 6px;
+  display: flex;
+}
+
+.card-image {
+  background-color: rgb(236, 236, 236);
+  width: 400px;
+  height: 60%;
+  border-radius: 6px 6px 0 0;
+}
+
+.card-image img{
+  background-color: rgb(236, 236, 236);
+  width: 400px;
+  height: 165px; 
+  border-radius: 6px 6px 0 0;
+}
+
+.card-image:hover {
+  transform: scale(0.98);
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  width: 620px;
+}
+
+.category {
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+  color: black;
+  padding: 10px 7px 0;
+}
+
+.category:hover {
+  cursor: pointer;
+}
+
+.heading {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  color: rgb(30, 28, 28);
+  padding: 7px;
+}
+
+.heading:hover {
+  cursor: pointer;
+}
+
+.author {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(81, 81, 81);
+  font-weight: 400;
+  font-size: 11px;
+  padding-top: 20px;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.name:hover {
+  cursor: pointer;
+}
+
+.token {
+  font-family: 'Roboto', sans-serif;
+  color: #434546;
+  margin-top: 238px;
+}
+
+ 
